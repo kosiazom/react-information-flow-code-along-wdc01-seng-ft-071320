@@ -7,9 +7,9 @@ class Child extends Component {
     //   this props is being passed down from the ParentComponent
 
     return (
-      <div onClick={ () => this.props.handleColorChange(getRandomColor() )}
+      <div 
         className="child"
-        style={{backgroundColor: this.props.color}}
+        style={{backgroundColor: '#FFF' }}
       ></div>
     )
   }
